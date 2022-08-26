@@ -1,5 +1,5 @@
 ## 概要
-TypeScript, Jest, Prettier, ESlint, StyleLint, babel, webpack, VScode, styled-componentsの環境構築
+TypeScript, React, Jest, Prettier, ESlint, StyleLint, husky, babel, webpack, VScode, styled-componentsの環境構築
 
 
 ## 参考
