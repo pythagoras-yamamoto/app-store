@@ -3,14 +3,29 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "lint-fix": "eslint --cache --fix src/ && prettier --write src/"
+    "format": "prettier --write",
+    "lint": "eslint --fix",
+    "fix": "npm run format && npm run lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js, ts}":  "yarn lint"
+  },
+  "husky": {
+    "hooks": {
+        "pre-commit": "lint-staged"
+   }
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "lint-staged": "^13.0.3"
   }
 }
