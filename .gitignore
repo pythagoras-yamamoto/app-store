@@ -264,4 +264,8 @@ sketch
 
 ### Vercel ###
 
+### LighthouseCI ###
+# Lighthouse reports
+.lighthouseci/
+
 # End of https://www.toptal.com/developers/gitignore/api/react,nextjs,macos,firebase,vercel,gatsby,python

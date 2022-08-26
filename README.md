@@ -1,10 +1,4 @@
-## 概要
-TypeScript, React, Jest, Prettier, ESlint, StyleLint, husky, babel, webpack, VScode, styled-componentsの環境構築
-
-
-## 参考
-
-#### eslint, prettier, husky
+### 参考
 https://zenn.dev/kohski/articles/eslint-prettier-integration
 https://qiita.com/soarflat/items/06377f3b96964964a65d
 
